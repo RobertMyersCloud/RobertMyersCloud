@@ -1,7 +1,7 @@
 # Hi, I'm Robert Myers 👋  
 
 ### Cloud Security • IAM • FinOps • IT Governance  
-Building secure, cost-efficient, cloud environments across AWS + Azure.
+Building secure, cost-efficient cloud environments across AWS + Azure.
 
 ---
 
@@ -11,13 +11,14 @@ Building secure, cost-efficient, cloud environments across AWS + Azure.
 - FinOps Cost Optimization & Reporting
 - Cloud Governance & Policy-as-Code
 - Incident Response & Security Operations
-- Automation (Serverless, Event-Driven Security, Tagging Enforcement)
+- Automation (Serverless, Event-Driven Security)
+- ITIL-Based Operational Processes
 
 ---
 
 ## 🔹 Core Skills
 - IAM / RBAC / Conditional Access  
-- Zero Trust Frameworks  
+- Zero Trust & Identity Governance  
 - AWS Security, Azure Security  
 - FinOps Framework + Cost Analysis  
 - Cloud Governance (Azure Policy, AWS Config, SCPs)  
@@ -27,22 +28,33 @@ Building secure, cost-efficient, cloud environments across AWS + Azure.
 
 ---
 
-## 🔹 What I'm Working On
-- Cloud Security + FinOps Playbook (Full repo)
-- Security+ (SY0-701)
-- Microsoft SC-300 Identity and Access Administrator
-- Azure AZ-104 Administrator
+## 🔹 Current Certifications
+- AWS Cloud Practitioner
+- AZ-900 Azure Fundamentals
+- SC-900 Security, Compliance & Identity
+- FinOps Foundation Intro
+- ITIL 4 Foundation
+- MBA
+
+---
+
+## 🔹 In Progress
+- CompTIA Security+ (SY0-701)
+- Microsoft SC-300 Identity & Access Admin
+- Microsoft AZ-104 Administrator
 - Google Cloud Digital Leader
 
 ---
 
-## 🔹 Cloud Portfolio (Full Documentation)
-👉 **[View my full Cloud Security + FinOps Playbook]([https://github.com/RobertMyersCloud/cloud-security-finops-playboo>/])**  
+## 🔹 My Cloud Portfolio  
+👉 **Live Website:**  
+https://robertmyerscloud.github.io/cloud-security-finops-playbook/
 
-(Hosted via GitHub Pages)
+👉 **GitHub Repository:**  
+https://github.com/RobertMyersCloud/cloud-security-finops-playbook  
 
 ---
 
 ## 🔹 Connect With Me
-**LinkedIn:** <your link>  
-**GitHub:** https://github.com/<yourusername>
+**LinkedIn:** https://www.linkedin.com/in/robertjmyers5  
+**GitHub:** https://github.com/RobertMyersCloud
