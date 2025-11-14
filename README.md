@@ -47,8 +47,6 @@ Building secure, cost-efficient cloud environments across AWS + Azure.
 ---
 
 ## 🔹 My Cloud Portfolio  
-👉 **Live Website:**  
-https://robertmyerscloud.github.io/cloud-security-finops-playbook/
 
 👉 **GitHub Repository:**  
 https://github.com/RobertMyersCloud/cloud-security-finops-playbook  
