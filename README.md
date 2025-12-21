@@ -9,7 +9,7 @@ I build **identity-first, cost-aware cloud security** with clear governance and 
 ---
 
 ## What I Do
-- **IAM & Identity Governance (Entra ID / RBAC-ABAC / Conditional Access / access reviews / privileged access)**
+- **IAM & Identity Governance (Entra ID / RBAC / ABAC / Conditional Access / access reviews / privileged access)**
 - **Zero Trust-aligned cloud security** across AWS + Azure
 - **FinOps governance** (tagging standards, allocation models, budget guardrails, cost anomaly response)
 - **Cloud governance & policy thinking** (guardrails, logging, operational runbooks)
