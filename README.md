@@ -4,28 +4,33 @@
 Security+ certified (SY0-701) • U.S. Veteran • MBA  
 I build **identity-first, cost-aware cloud security** with clear governance and operational documentation.
 
+**Proof > claims:** My work is documented with architecture notes, runbooks, and sanitized evidence.
+
 ---
 
 ## What I Do
-- **IAM & Identity Governance** (RBAC/ABAC, Conditional Access patterns, access reviews, privileged access)
+- **IAM & Identity Governance (Entra ID / RBAC-ABAC / Conditional Access / access reviews / privileged access)**
 - **Zero Trust-aligned cloud security** across AWS + Azure
 - **FinOps governance** (tagging standards, allocation models, budget guardrails, cost anomaly response)
 - **Cloud governance & policy thinking** (guardrails, logging, operational runbooks)
-- **Detection & response fundamentals** (KQL/Sentinel literacy, incident workflows)
+- **Detection + response fundamentals** (KQL/Sentinel literacy, incident workflows)
 
 ---
 
 ## Featured Portfolio (start here)
-- **Cloud Security + IAM + FinOps Playbook (Flagship):** _coming this week_
-- **IAM / Zero Trust Architecture:** _coming this week_
-- **FinOps Cost Governance:** _coming this week_
 
-> My repos are structured for reviewers: **summary → architecture → evidence → runbooks → lessons learned**.
+**Start here:** My pinned repositories show practical IAM + FinOps governance artifacts with clear documentation and evidence.
+
+- **Cloud Security + IAM + FinOps Playbook (Flagship):** In build (active)
+- **IAM / Zero Trust Architecture:** In build (active)
+- **FinOps Cost Governance:** In build (active)
+
+> Repos are structured for reviewers: **summary → architecture → evidence → runbooks → lessons learned**.
 
 ---
 
 ## Certifications
-- CompTIA **Security+ (SY0-701)**  
+- CompTIA **Security+ (SY0-701)**
 - **CCSK** (Cloud Security Alliance)
 - Microsoft **SC-900** • **AZ-900**
 - AWS **Cloud Practitioner**
