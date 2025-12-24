@@ -1,51 +1,51 @@
-# Hi, I'm Robert Myers 👋
+Hi, I'm Robert Myers 👋  
+IAM (Entra ID) • Cloud Security (Azure/AWS) • Zero Trust • Identity Governance • FinOps  
+Security+ (SY0-701) • U.S. Veteran • MBA  
 
-**Cloud Security • IAM • FinOps • IT Governance (AWS + Azure)**  
-Security+ certified (SY0-701) • U.S. Veteran • MBA  
-I build **identity-first, cost-aware cloud security** with clear governance and operational documentation.
+I build identity-first, cost-aware cloud security with clear governance and operational documentation.  
+Proof > claims: everything here is backed by runbooks, architecture notes, and sanitized evidence.  
+Security note: all artifacts/evidence are sanitized (no secrets, tenant IDs, emails, or internal domains).
 
-**Proof > claims:** My work is documented with architecture notes, runbooks, and sanitized evidence.
+**Target roles (DFW + Atlanta):** IAM Analyst • Identity Administrator • Entra ID Admin • Okta Admin • Cloud Security Analyst
 
 ---
 
 ## What I Do
-- **IAM & Identity Governance (Entra ID / RBAC / ABAC / Conditional Access / access reviews / privileged access)**
-- **Zero Trust-aligned cloud security** across AWS + Azure
-- **FinOps governance** (tagging standards, allocation models, budget guardrails, cost anomaly response)
-- **Cloud governance & policy thinking** (guardrails, logging, operational runbooks)
-- **Detection + response fundamentals** (KQL/Sentinel literacy, incident workflows)
+- IAM & Identity Governance (Entra ID, RBAC/ABAC, Conditional Access, access reviews, privileged access)
+- Zero Trust-aligned security across Azure + AWS (identity pillar first)
+- Cloud governance & policy thinking (guardrails, logging, operational runbooks)
+- Detection + response fundamentals (KQL, Sentinel/Defender, incident workflows)
+- FinOps governance (tagging standards, allocation models, budget guardrails, cost anomaly response)
 
 ---
 
-## Featured Portfolio (start here)
+## Featured Work (start here)
+These links go straight to practical artifacts with clear documentation and proof.
 
-**Start here:** My pinned repositories show practical IAM + FinOps governance artifacts with clear documentation and evidence.
+- **Cloud Security + IAM + FinOps Playbook** — identity-first governance, runbooks, and control mappings  
+  https://github.com/RobertMyersCloud/cloud-security-iam-finops-playbook
 
-- **Cloud Security + IAM + FinOps Playbook (Flagship):** In build (active)
-- **IAM / Zero Trust Architecture:** In build (active)
-- **FinOps Cost Governance:** In build (active)
+- **Terraform Associate Labs** — repeatable infrastructure labs with clean documentation  
+  https://github.com/RobertMyersCloud/terraform-associate-labs
 
-> Repos are structured for reviewers: **summary → architecture → evidence → runbooks → lessons learned**.
-
----
-
-## Certifications
-- CompTIA **Security+ (SY0-701)**
-- **CCSK** (Cloud Security Alliance)
-- Microsoft **SC-900** • **AZ-900**
-- AWS **Cloud Practitioner**
-- ISC2 **Certified in Cybersecurity (CC)**
-- Fortinet **Certified Fundamentals: Cybersecurity**
-- **ITIL® 4 Foundation** • **MBA**
+- **Next releases:** Zero Trust Identity Assessment (v1) + SSO Protocol Pack (SAML/OIDC/SCIM)
 
 ---
 
-## Current Focus (next 30–60 days)
-- **SC-300** (Identity & Access Administrator)
-- **AZ-500** (Azure Security Engineer)
-- **FinOps Certified Practitioner**
-- **Terraform Associate**
+## Certifications (current)
+- **Security:** CompTIA Security+ (SY0-701) • ISC2 Certified in Cybersecurity (CC) • Fortinet Certified Fundamentals: Cybersecurity
+- **Cloud:** AWS Cloud Practitioner • Microsoft SC-900 • AZ-900
+- **Governance:** CCSK (Cloud Security Alliance) • ITIL® 4 Foundation • MBA
 
+---
+
+## Current Focus (in order)
+- Azure Administrator Associate (AZ-104)
+- Identity and Access Administrator Associate (SC-300)
+- Okta Certified Professional
+- Microsoft 365 Administrator (MS-102)
+- Azure Security Engineer Associate (AZ-500)
+  
 ---
 
 ## Connect
