@@ -6,7 +6,7 @@ I build identity-first, cost-aware cloud security with clear governance and oper
 Proof > claims: everything here is backed by runbooks, architecture notes, and sanitized evidence.  
 Security note: all artifacts/evidence are sanitized (no secrets, tenant IDs, emails, or internal domains).
 
-**Target roles (DFW + Atlanta):** IAM Analyst • Identity Administrator • Entra ID Admin • Okta Admin • Cloud Security Analyst
+**Target roles:** IAM Analyst • Identity Administrator • Entra ID Admin • Okta Admin • Cloud Security Analyst
 
 ---
 
@@ -21,14 +21,6 @@ Security note: all artifacts/evidence are sanitized (no secrets, tenant IDs, ema
 
 ## Featured Work (start here)
 These links go straight to practical artifacts with clear documentation and proof.
-
-- **Cloud Security + IAM + FinOps Playbook** — identity-first governance, runbooks, and control mappings  
-  https://github.com/RobertMyersCloud/cloud-security-iam-finops-playbook
-
-- **Terraform Associate Labs** — repeatable infrastructure labs with clean documentation  
-  https://github.com/RobertMyersCloud/terraform-associate-labs
-
-- **Next releases:** Zero Trust Identity Assessment (v1) + SSO Protocol Pack (SAML/OIDC/SCIM)
 
 ---
 
