@@ -20,7 +20,7 @@ Security note: all artifacts/evidence are sanitized (no secrets, tenant IDs, ema
 ---
 
 ## Featured Work (start here)
-These links go straight to practical artifacts with clear documentation and proof.
+- IAM + Cloud Security (proof-backed): https://github.com/RobertMyersCloud/iam-cloud-security
 
 ---
 
