@@ -108,6 +108,8 @@ Details:
 
 ## Visual: Budget variance governance flow
 
+The flow below illustrates how budget variance events are reviewed, investigated, and closed within a controlled FinOps operating rhythm.
+
 ```mermaid
 flowchart TD
   A[Budget threshold event] --> B[Notify cost owner]
@@ -126,5 +128,5 @@ flowchart TD
 
 - MBA + BS Accounting
 - 20+ years in high-accountability environments (U.S. Navy, federal, aerospace)
-- budget ownership, cost control, procurement governance, audit readiness
-- executive reporting and documentation discipline
+- Budget ownership, cost control, procurement governance, audit readiness
+- Executive reporting and documentation discipline
