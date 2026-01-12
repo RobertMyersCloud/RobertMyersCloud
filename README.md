@@ -12,8 +12,8 @@ I build **governance-first cloud cost controls** that leadership can actually re
 My work sits at the intersection of:
 - FinOps cost governance
 - IT financial management
-- cloud platform behavior (Azure-first)
-- audit-ready documentation and decision trails
+- Cloud platform behavior (Azure-first)
+- Audit-ready documentation and decision trails
 
 This profile showcases **how cost decisions are made, explained, approved, and retained** — not just how dashboards look.
 
