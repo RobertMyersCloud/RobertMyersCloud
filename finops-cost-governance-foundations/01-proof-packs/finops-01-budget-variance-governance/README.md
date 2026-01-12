@@ -106,7 +106,8 @@ Audit-style index of artifacts referenced by this proof pack.
 
 ### 4) Evidence tables (sample inputs/outputs)
 Sanitized tables used to demonstrate what the review pack looks like.
-- [Evidence tables](evidence/tables/)
+- [Sample variance table](evidence/tables/sample-variance-table.md)
+- [Sample decision log](evidence/tables/sample-decision-log.md)
 
 ---
 
