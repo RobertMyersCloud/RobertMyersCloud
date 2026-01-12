@@ -1,93 +1,106 @@
-# Financial Logic: Budget Variance, Forecasting, and Cost Normalization
+# Proof Pack 01 — Budget vs Actuals & Variance Governance
 
-This document defines the financial logic used in **Proof Pack 01**. It is written to be auditable, repeatable, and business-first.
-
-> **Scope note**
-> This is a governance and analysis framework. It does not imply production access, engineering authority, or the ability to enforce technical actions.
-
----
-
-## 1) Core variance calculation (Budget vs Actual)
-
-**Monthly variance ($):**  
-`VarianceUSD = ActualSpend - BudgetedSpend`
-
-**Monthly variance (%):**  
-`VariancePct = (ActualSpend - BudgetedSpend) / BudgetedSpend`
-
-### Thresholds and required actions (governance triggers)
-
-| Variance band (vs budget) | Status | Required governance action |
-|---:|---|---|
-| ≤ 5% | Monitor | Optional commentary; track trend. |
-| > 5% and ≤ 10% | Investigate | Commentary required (driver + impact horizon). |
-| > 10% | Escalate | Commentary + decision required (approve / re-allocate / reduce / defer) with evidence references. |
-
-**Output artifact:** Variance table and commentary reference IDs  
-- See: [Evidence index](evidence/evidence-index.md)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Focus](https://img.shields.io/badge/Focus-Monthly_Close_%26_Forecasting-blue)
+![Role](https://img.shields.io/badge/Role-Financial_Analyst-orange)
+![Scope](https://img.shields.io/badge/Scope-Governance_%2F_Analysis-yellow)
 
 ---
 
-## 2) Cost normalization (upfront commitments)
-
-Cloud costs can include **upfront commitments** (e.g., reservations or savings plans) that create a cash spike. For **management reporting** and variance analysis, spend can be normalized to avoid misleading month-to-month variance.
-
-**Example (illustrative):**
-- Upfront payment: $12,000  
-- Term: 12 months  
-- Normalized monthly view: $1,000 per month  
-
-> **Policy (for this framework)**
-> Variance reporting uses a **normalized / amortized view** for commitments when available, so budget performance reflects consumption patterns rather than one-time payment timing.
-
-**Evidence expectation (when implemented with real data):**
-- Retain the commitment record and the normalization method used (inputs + outputs).
+## Goal
+Demonstrate a repeatable, auditable approach for controlling cloud spend using:
+- budget baselines
+- variance thresholds
+- forecast updates
+- decision logging
+- evidence retention
 
 ---
 
-## 3) Forecast adjustment logic (rolling forecast)
-
-Budgets are typically set annually; forecasts are updated on a rolling basis.
-
-**Simple rolling forecast (illustrative):**  
-`NewForecast = (AvgDailySpend * RemainingDaysInMonth) + MonthToDateSpend`
-
-### Forecast update triggers (governance)
-
-A forecast update is required when one of the following occurs:
-- Current forecast exceeds baseline budget by **> 10%** and the condition persists for **3 consecutive days**, or
-- A known scope change is approved (new workload, new environment, contract change), or
-- Allocation changes materially shift costs between owners or cost centers.
-
-**Output artifact:** Forecast note / commentary (business rationale + date + owner)  
-- Recommended template: [Variance commentary template](../../03-reporting-templates/variance-commentary-template.md)
+## What this proves
+This proof pack shows I can operate cloud cost management as a **financial control domain**:
+- define and apply variance triggers (monitor / investigate / escalate)
+- separate **cash timing** from **management reporting** (cost normalization)
+- run a monthly review rhythm with documented decisions
+- retain traceable artifacts suitable for leadership and audit review
 
 ---
 
-## 4) Cost allocation waterfall (ensure 100% allocation)
+## Inputs and assumptions
+This proof pack uses **sample/sanitized** tables to demonstrate methodology without implying access to any employer billing system or production tenant.
 
-Allocation is applied in order of precedence to minimize “unassigned” spend.
+- Budget baseline is treated as fixed for the period.
+- Forecast is updated monthly using a rolling forecast approach.
+- Allocation uses a precedence “waterfall” to reduce unassigned spend.
 
-1. **Direct attribution:** Resource-level assignment (e.g., `CostCenter`).
-2. **Group inheritance:** Resource group-level assignment.
-3. **Subscription default mapping:** Subscription-to-owner or cost center mapping.
-4. **Unallocated bucket:** Any remainder assigned to a shared or central bucket for follow-up.
+See:
+- [Assumptions](../../00-context/assumptions.md)
+- [Scope boundaries](../../00-context/scope-boundaries.md)
+
+---
+
+## Core artifacts (start here)
+
+### 1) Executive summary (one-page)
+Use this if you want the business outcome quickly.
+
+- [Executive summary](executive-summary.md)
+
+### 2) Financial logic (how decisions are made)
+Defines variance math, thresholds, forecast triggers, normalization, and allocation waterfall.
+
+- [Financial logic](financial-logic.md)
+
+### 3) Evidence index (traceability)
+This is the audit-style index of artifacts referenced by this proof pack.
+
+- [Evidence index](evidence/evidence-index.md)
+
+### 4) Evidence tables (sample inputs/outputs)
+Sanitized tables used to demonstrate what the review pack looks like.
+
+- [Evidence tables](evidence/tables/)
+
+---
+
+## Operating workflow (how this runs monthly)
+
+1. **Baseline budget established** for the month/period
+2. **Actuals reviewed** and variance calculated
+3. Variance routed by threshold:
+   - **Monitor** (≤ 5%): trend tracked
+   - **Investigate** (> 5% and ≤ 10%): commentary required
+   - **Escalate** (> 10%): decision + evidence required
+4. **Forecast updated** (rolling forecast) when triggers are met
+5. **Decision logged** (approve / re-allocate / reduce / defer)
+6. **Evidence retained** and referenced in the evidence index
 
 > **Control note**
-> Any spend landing in **Unallocated** is a governance exception that requires investigation and resolution within the next review cycle.
-
-**Output artifact:** Allocation exception list (count, $ amount, owners impacted)  
-- Evidence reference should be recorded in the [Evidence index](evidence/evidence-index.md)
+> The output is not a “dashboard screenshot.” The output is a **decision trail**: what changed, why it changed, who approved it, and what evidence supports it.
 
 ---
 
-## 5) Decision logging standard (what “good” looks like)
+## Outputs produced (what a reviewer should expect)
 
-For any item in **Investigate** or **Escalate**:
-- State the driver (scope / usage / rate / allocation)
-- State whether it is one-time or recurring
-- Provide a recommendation (approve / re-allocate / reduce / defer)
-- Reference evidence IDs that support the conclusion
+- Variance table with commentary references
+- Forecast note (date, owner, rationale)
+- Allocation exception list (unallocated spend flagged)
+- Decision log entries linked to evidence IDs
 
-Recommended output format:
+Templates used (repo root):
+- [Variance commentary template](../../03-reporting-templates/variance-commentary-template.md)
 - [Exec brief one-pager](../../03-reporting-templates/exec-brief-onepager.md)
+- [Monthly cost review agenda](../../03-reporting-templates/monthly-cost-review-agenda.md)
+
+---
+
+## Evidence standards (audit-safe)
+- Every artifact is linkable and referenced by ID in the evidence index.
+- All sample data is sanitized and does not represent any employer tenant or billing export.
+- The framework focuses on **governance behavior**, not platform administration.
+
+---
+
+## Navigation
+- Back to repo: [README](../../README.md)
+- Portfolio map: [PORTFOLIO.md](../../PORTFOLIO.md)
