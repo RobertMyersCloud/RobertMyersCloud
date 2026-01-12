@@ -3,55 +3,67 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Focus](https://img.shields.io/badge/Focus-Evidence_%26_Traceability-blue)
 ![Domain](https://img.shields.io/badge/Domain-IT_Financial_Governance-orange)
-![Scope](https://img.shields.io/badge/Scope-Audit_Ready_Index-yellow)
+![Scope](https://img.shields.io/badge/Scope-Audit_Safe-yellow)
 
 ---
 
 ## Purpose
-Provide an audit-style register of evidence artifacts referenced by **Proof Pack 01**. Each entry:
-- has a unique reference ID (EV = evidence artifact, VC = variance commentary)
-- links to the exact artifact location
-- states what it supports and how it is used in governance review
+Provide an audit-style register of evidence artifacts referenced by **Proof Pack 01**.
+
+Each entry:
+- has a unique reference ID (EV / VC)
+- links directly to the supporting artifact
+- states what governance control or decision it supports
 
 > **Scope note**
-> This proof pack uses sample/sanitized artifacts. No entries imply access to an employer billing system or production tenant.
+> All artifacts are sample or lab-generated. No employer billing exports or production tenant access is implied.
 
 ---
 
 ## Reference ID conventions
-- **EV-YYYY-MM-###** = Evidence artifact (table, screenshot, export, supporting file)
-- **VC-YYYY-MM-###** = Variance commentary (narrative record tied to a variance item)
+
+- **EV-YYYY-MM-XXX** — Evidence artifact (tables, screenshots, supporting files)
+- **VC-YYYY-MM-XXX** — Variance commentary or decision narrative
 
 ---
 
 ## Evidence register (sample / sanitized)
 
+| Ref ID | Type | Artifact | What it proves | Location |
+|---|---|---|---|---|
+| EV-2026-01-001 | EV | Sample variance table (sanitized) | Budget vs actual comparison with variance classification | [sample-variance-table.md](tables/sample-variance-table.md) |
+| EV-2026-01-005 | EV | Azure Cost Analysis – Accumulated vs Budget | Baseline budget context and actual spend position vs monthly budget | [EV-2026-01-005](screenshots/EV-2026-01-005_azure-cost-analysis_accumulated-vs-budget.png) |
+| EV-2026-01-006 | EV | Azure Cost Analysis – Group by Service | Identification of primary spend drivers by service/category | [EV-2026-01-006](screenshots/EV-2026-01-006_azure-cost-analysis_group-by-service.png) |
+| EV-2026-01-007 | EV | Azure Cost Analysis – Forecast View | Forecasted month-end exposure and forward-looking variance risk | [EV-2026-01-007](screenshots/EV-2026-01-007_cost-analysis_forecast-view.png) |
+| EV-2026-01-008 | EV | Sample decision log (sanitized) | Conversion of variance signals into accountable governance decisions | [sample-decision-log.md](tables/sample-decision-log.md) |
+
+---
+
+## Variance commentary references (placeholders)
+
 | Ref ID | Type | Artifact | What it supports | Location |
 |---|---|---|---|---|
-| EV-2026-01-001 | EV | Variance table row (Compute) | Investigate classification + forecast view for monthly close | [Sample variance table](tables/sample-variance-table.md) |
-| EV-2026-01-002 | EV | Variance table row (Storage) | Monitor classification + trend tracking | [Sample variance table](tables/sample-variance-table.md) |
-| EV-2026-01-003 | EV | Variance table row (Networking) | Escalate classification + decision requirement | [Sample variance table](tables/sample-variance-table.md) |
-| EV-2026-01-004 | EV | Variance table row (Unallocated) | Allocation exception handling + escalation trigger | [Sample variance table](tables/sample-variance-table.md) |
-| VC-2026-01-001 | VC | Variance commentary (placeholder) | Driver + impact horizon for Investigate item | (To be created) |
-| VC-2026-01-002 | VC | Variance commentary (placeholder) | Rationale for Monitor item (optional) | (To be created) |
-| VC-2026-01-003 | VC | Variance commentary (placeholder) | Driver + recommendation + decision for Escalate item | (To be created) |
-| VC-2026-01-004 | VC | Variance commentary (placeholder) | Root cause + allocation resolution plan for Unallocated exception | (To be created) |
+| VC-2026-01-001 | VC | Variance commentary (Compute) | Driver explanation and forecast rationale | (to be created) |
+| VC-2026-01-002 | VC | Variance commentary (Storage) | Monitor classification justification | (to be created) |
+| VC-2026-01-003 | VC | Variance commentary (Networking) | Escalation rationale and decision | (to be created) |
+| VC-2026-01-004 | VC | Variance commentary (Unallocated) | Allocation exception handling | (to be created) |
 
 ---
 
 ## How this index is used (review standard)
+
 During monthly close, any item classified as **Investigate** or **Escalate** must:
-- reference a **VC-** entry for narrative rationale, and
-- reference an **EV-** entry for supporting evidence
+- reference one or more **EV** artifacts
+- produce a **VC** commentary or decision
+- be traceable end-to-end through this index
 
 > **Control note**
-> The index exists to prove the decision trail is repeatable and reviewable: what changed, why it changed, and what evidence supports the conclusion.
+> This index enables independent review of *what changed, why it changed, who decided, and what evidence supports the decision*.
 
 ---
 
 ## Navigation
 - Back to Proof Pack 01: [README](../README.md)
-- Executive summary: [Executive summary](../executive-summary.md)
-- Financial logic: [Financial logic](../financial-logic.md)
-- Evidence tables: [Evidence tables](tables/)
+- Financial logic: [financial-logic.md](../financial-logic.md)
+- Executive summary: [executive-summary.md](../executive-summary.md)
 - Repo README: [README](../../../README.md)
