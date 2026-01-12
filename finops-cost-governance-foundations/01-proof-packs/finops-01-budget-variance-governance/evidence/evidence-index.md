@@ -19,7 +19,7 @@ Provide a sanitized example of the variance table used in the monthly close pack
 
 ---
 
-## Table (sanitized example)
+## Table (sanitized example — monthly close view)
 
 > **Viewing note:** This table is wide by design. Use the horizontal scroll bar to view all columns.
 
