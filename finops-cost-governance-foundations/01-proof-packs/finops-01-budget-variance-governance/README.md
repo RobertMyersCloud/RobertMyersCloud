@@ -39,75 +39,55 @@ See:
 
 ---
 
-## Foundational context (how this proof pack should be evaluated)
-
-This proof pack is governed by repository-level standards that define **how evidence is evaluated**, **what claims are allowed**, and **what is intentionally out of scope**.
-
-It should be reviewed as a **financial governance capability demonstration**, not as a technical implementation walkthrough.
-
-### Governing standards
-This proof pack explicitly adheres to:
-- [Operating principles (repo standards)](../../00-context/operating-principles.md)
-- [How to review this repository](../../00-context/how-to-review.md)
-- [Data sources (conceptual ownership & cadence)](../../00-context/data-sources.md)
-- [Scope boundaries](../../00-context/scope-boundaries.md)
-- [Assumptions](../../00-context/assumptions.md)
-
-### Evidence philosophy (important)
-This proof pack emphasizes **decision governance**, not tooling screenshots.
-
-What is being demonstrated:
-- how variance thresholds trigger action
-- how forecasts are adjusted and documented
-- how decisions are logged and retained
-- how evidence is indexed for traceability
-
-What is intentionally *not* demonstrated in this proof pack:
-- live billing exports
-- platform configuration screenshots
-- enforcement actions inside a tenant
-
-> **Why this matters**
-> In real organizations, cost governance failures are rarely caused by missing dashboards.
-> They are caused by missing ownership, inconsistent decisions, and lack of retained rationale.
->
-> This proof pack demonstrates the **control layer** that must exist *before* tooling screenshots are meaningful.
-
-### Evidence maturity note
-Proof Pack 01 represents an early-stage governance control:
-- establishes standards
-- defines decision logic
-- proves review discipline
-
-Subsequent proof packs may introduce:
-- tool-generated artifacts
-- screenshots
-- exports
-
-—but only after governance standards are established.
-
-This sequencing is intentional and reflects how mature FinOps programs are built.
-
----
-
 ## Core artifacts (start here)
 
 ### 1) Executive summary (one-page)
 Use this if you want the business outcome quickly.
+
 - [Executive summary](executive-summary.md)
 
 ### 2) Financial logic (how decisions are made)
 Defines variance math, thresholds, forecast triggers, normalization, and allocation waterfall.
+
 - [Financial logic](financial-logic.md)
 
 ### 3) Evidence index (traceability)
-Audit-style index of artifacts referenced by this proof pack.
+This is the audit-style index of artifacts referenced by this proof pack.
+
 - [Evidence index](evidence/evidence-index.md)
 
 ### 4) Evidence tables (sample inputs/outputs)
 Sanitized tables used to demonstrate what the review pack looks like.
-- [Sample variance table](evidence/tables/sample-variance-table.md)
-- [Sample decision log](evidence/tables/sample-decision-log.md)
+
+- [Evidence tables](evidence/tables/)
+
+---
+
+## Evidence (real Azure cost data)
+
+This proof pack includes **real Azure Cost Management evidence** captured during a live billing period and retained as traceable artifacts.
+
+### Azure Cost Analysis screenshots
+These screenshots establish budget context, isolate spend drivers, and show forecasted exposure:
+
+- **Accumulated vs Budget (baseline context)**  
+  → [EV-2026-01-005](evidence/screenshots/EV-2026-01-005_azure-cost-analysis_accumulated-vs-budget.png)
+
+- **Group by Service (driver analysis)**  
+  → [EV-2026-01-006](evidence/screenshots/EV-2026-01-006_azure-cost-analysis_group-by-service.png)
+
+- **Forecast View (forward-looking risk)**  
+  → [EV-2026-01-007](evidence/screenshots/EV-2026-01-007_cost-analysis_forecast-view.png)
+
+### Governance outputs
+- **Variance table (sanitized):** [EV-2026-01-001](evidence/tables/sample-variance-table.md)
+- **Decision log (sanitized):** [EV-2026-01-008](evidence/tables/sample-decision-log.md)
+
+All evidence artifacts are indexed and linkable:
+- **Evidence index:** [evidence-index.md](evidence/evidence-index.md)
+
+> **Control outcome**
+> Spend signals → variance classification → decision → retained evidence (auditable chain).
 
 ---
 
@@ -151,3 +131,4 @@ Templates used (repo root):
 
 ## Navigation
 - Back to repo: [README](../../README.md)
+- Portfolio map: [PORTFOLIO.md](../../PORTFOLIO.md)
