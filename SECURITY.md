@@ -4,7 +4,7 @@
 This repository contains portfolio artifacts and sample/sanitized content. It does not include production systems, secrets, or customer data.
 
 ## Reporting
-If you believe you have found a security issue (e.g., accidental secret exposure), please notify me via LinkedIn DM or email and include:
+If you believe you have found a security issue (e.g., accidental secret exposure), please notify me at robert@rmyers.cloud and include:
 - what you found
 - where it is located (file/path)
 - steps to reproduce (if applicable)
