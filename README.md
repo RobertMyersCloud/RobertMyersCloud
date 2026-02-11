@@ -49,7 +49,7 @@ Every pack delivers 10 Expected-vs-Observed controls. Every control cites eviden
 
 ## Featured repositories
 
-### [FinOps Cost Governance Foundations](https://github.com/RobertMyersCloud/finops-cost-governance-foundations)
+### [Enterprise Governance Proof Packs](https://github.com/RobertMyersCloud/Enterprise-Governance-Proof-Packs)
 
 A governance-first portfolio demonstrating how cloud spend is controlled as a **financial discipline**.
 
