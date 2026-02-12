@@ -89,17 +89,35 @@ No screenshots or artifacts imply production authority or engineering control.
 
 ## Credentials
 
-- SailPoint IdentityNow Certified (ISL)
+**Security & Identity**
 - CompTIA Security+
-- CCSK (Certificate of Cloud Security Knowledge)
-- (ISC)² CC (Certified in Cybersecurity)
+- CompTIA Network+
+- (ISC)² Certified in Cybersecurity (CC)
+- SailPoint Identity Security Leader (ISL)
+- CCSK v5 (Certificate of Cloud Security Knowledge)
+- Microsoft SC-900 (Security, Compliance & Identity Fundamentals)
+- Fortinet Certified Associate Cybersecurity (FCA)
+- Fortinet Certified Fundamentals Cybersecurity (FCF)
+
+**Cloud Platforms**
+- AWS Certified Cloud Practitioner
+- Microsoft AZ-900 (Azure Fundamentals)
+- Microsoft Cloud Support Associate Specialization
+- Microsoft IT Support Specialist Specialization
+
+**FinOps & Operations**
+- FinOps Foundation — Introduction to FinOps
+- FinOps Foundation — Introduction to FOCUS
+- ITIL 4 Foundation
+- Lean Six Sigma Green Belt
+- Scrum Master (Scrum Institute)
+- Google IT Support Professional Certificate
 
 ## Current focus
 
-- AZ-104 (Azure Administrator) — platform grounding
-- FinOps Certified Practitioner (FCP)
-- Network+ (cost & connectivity literacy)
-
+- SC-300 (Identity & Access Administrator) — in progress
+- FinOps Certified Practitioner (FOCP) — in progress
+- CSA Certificate of Competence in Zero Trust (CCZT) — in progress
 ## Location
 
 Fort Worth, TX
