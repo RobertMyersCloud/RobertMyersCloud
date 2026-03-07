@@ -3,31 +3,25 @@
 <!-- ANIMATED HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1628,50:1B3A5C,100:C9A84C&height=200&section=header&text=Robert%20J.%20Myers&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Security%20Architect%20%7C%20Defense%20Compliance%20%7C%20Infrastructure%20Builder&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
-<!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=C9A84C&center=true&vCenter=true&width=800&lines=20-Year+U.S.+Navy+Veteran+%7C+LS1+%2F+EXW%2FSW;CMMC+Registered+Practitioner+%E2%80%94+In+Progress;23%2B+Industry+Certifications+%7C+Zero+Audit+Findings;Sovereign+Infrastructure+%7C+34-Container+Homelab;Defense+Compliance+%7C+NIST+800-171+%7C+C-SCRM;Founder+%E2%80%94+Stella+Maris+Governance+LLC+%28SDVOSB%29)](https://git.io/typing-svg)
+<!-- TYPING ANIMATION — fixed encoding, no special chars in lines -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=C9A84C&center=true&vCenter=true&width=800&lines=20-Year+U.S.+Navy+Veteran+%7C+EXW%2FSW;CMMC+Registered+Practitioner+%E2%80%94+In+Progress;23%2B+Industry+Certifications+%7C+Zero+Audit+Findings;Sovereign+Infrastructure+%7C+34-Container+Homelab;Defense+Compliance+%7C+NIST+800-171+%7C+C-SCRM;Founder+of+Stella+Maris+Governance+LLC)](https://git.io/typing-svg)
 
 <br/>
 
 <!-- PROFILE BADGES ROW 1 -->
-![Navy Veteran](https://img.shields.io/badge/U.S.%20Navy-Veteran%20%7C%2020%2B%20Years-0A1628?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0M5QTg0QyIgZD0iTTEyIDJMOSA5SDJsNS41IDQuNUw1IDIxbDctNC41TDE5IDIxbC0yLjUtNy41TDIxIDlIMTR6Ii8+PC9zdmc+&logoColor=C9A84C)
+![Navy Veteran](https://img.shields.io/badge/U.S.%20Navy-Veteran%20%7C%2020%2B%20Years-0A1628?style=for-the-badge&logoColor=C9A84C)
 ![SDVOSB](https://img.shields.io/badge/SDVOSB-Pending%20SBA%20VetCert-C9A84C?style=for-the-badge&logo=shield&logoColor=white)
 ![Top Secret](https://img.shields.io/badge/Clearance-Top%20Secret%20%28Prior%29-1B3A5C?style=for-the-badge&logo=lock&logoColor=white)
-![Zero Audit Findings](https://img.shields.io/badge/Audit%20Record-Zero%20Findings%20%7C%20Career-2D6A2D?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Zero Audit Findings](https://img.shields.io/badge/Audit%20Record-Zero%20Findings%20Career-2D6A2D?style=for-the-badge&logo=checkmarx&logoColor=white)
 
 <!-- PROFILE BADGES ROW 2 -->
-![CMMC RP](https://img.shields.io/badge/CMMC-Registered%20Practitioner%20%E2%80%94%20In%20Progress-FF6B35?style=for-the-badge&logo=shield&logoColor=white)
-![Certifications](https://img.shields.io/badge/Certifications-23%2B%20Industry-4A90D9?style=for-the-badge&logo=academia&logoColor=white)
-![Control Packs](https://img.shields.io/badge/Control%20Packs-22%20Packs%20%7C%20220%20Controls-8B4513?style=for-the-badge&logo=databricks&logoColor=white)
+![CMMC RP](https://img.shields.io/badge/CMMC-Registered%20Practitioner%20In%20Progress-FF6B35?style=for-the-badge&logo=shield&logoColor=white)
+![Certifications](https://img.shields.io/badge/Certifications-23%2B%20Industry-4A90D9?style=for-the-badge&logoColor=white)
+![Control Packs](https://img.shields.io/badge/Control%20Packs-22%20Packs%20%7C%20220%20Controls-8B4513?style=for-the-badge&logoColor=white)
 
 <br/>
 
-<!-- LIVE GITHUB STATS ROW -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=RobertMyersCloud&show_icons=true&theme=transparent&hide_border=true&title_color=C9A84C&icon_color=C9A84C&text_color=FFFFFF&bg_color=0A1628&count_private=true&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobertMyersCloud&layout=compact&theme=transparent&hide_border=true&title_color=C9A84C&text_color=FFFFFF&bg_color=0A1628&langs_count=8"/>
-
-<br/>
-
-<!-- STREAK STATS -->
+<!-- CONTRIBUTION STREAK — most reliable renderer -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=RobertMyersCloud&theme=transparent&hide_border=true&ring=C9A84C&fire=C9A84C&currStreakLabel=C9A84C&sideLabels=FFFFFF&sideNums=FFFFFF&background=0A1628&stroke=1B3A5C" width="600"/>
 
 <br/><br/>
@@ -45,7 +39,7 @@
 name:           Robert J. Myers
 alias:          RobertMyersCloud
 location:       Fort Worth, TX → Georgia (2026)
-military:       U.S. Navy Veteran | LS1 / EXW-SW | 20 Years Active Service
+military:       U.S. Navy Veteran | 20 Years Active Service
 clearance:      Top Secret (Prior) | DoD Environment | DOJ Environment
 education:
   - MBA — Business Administration
@@ -70,11 +64,13 @@ philosophy:     "Build systems that produce auditable evidence — not just poli
 
 <div align="center">
 
-[![enterprise-security-reference-architecture](https://github-readme-stats.vercel.app/api/pin/?username=RobertMyersCloud&repo=enterprise-security-reference-architecture&theme=transparent&hide_border=true&title_color=C9A84C&text_color=FFFFFF&bg_color=0A1628&icon_color=C9A84C)](https://github.com/RobertMyersCloud/enterprise-security-reference-architecture)
+> **[enterprise-security-reference-architecture](https://github.com/RobertMyersCloud/enterprise-security-reference-architecture)**
+>
+> End-to-end enterprise security reference architecture spanning identity governance, supply chain risk, cloud security posture, Zero Trust network design, and FinOps governance. Built as a practitioner-grade reference — not a slide deck.
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RobertMyersCloud&repo=enterprise-security-reference-architecture&theme=dark&hide_border=true&title_color=C9A84C&text_color=FFFFFF&bg_color=0A1628&icon_color=C9A84C)](https://github.com/RobertMyersCloud/enterprise-security-reference-architecture)
 
 </div>
-
-> End-to-end enterprise security reference architecture spanning identity governance, supply chain risk, cloud security posture, Zero Trust network design, and FinOps governance. Built as a practitioner-grade reference — not a slide deck.
 
 ---
 
@@ -191,12 +187,12 @@ philosophy:     "Build systems that produce auditable evidence — not just poli
 │  │  (SSO / IdP) │  │  │ (Git Server) │  │  │  (Ops Dashboard)    │ │
 │  └──────────────┘  │  └──────────────┘  │  └─────────────────────┘ │
 │                    │  ┌──────────────┐  │  ┌─────────────────────┐ │
-│                    │  │  Nextcloud   │  │  │     n8n             │ │
+│                    │  │  Nextcloud   │  │  │       n8n           │ │
 │                    │  │  (File Sync) │  │  │  (Automation)       │ │
 │                    │  └──────────────┘  │  └─────────────────────┘ │
 │                    │  ┌──────────────┐  │  ┌─────────────────────┐ │
 │                    │  │  Bookstack   │  │  │    Paperless        │ │
-│                    │  │  (Wiki/KB)   │  │  │  (Doc Mgmt)         │ │
+│                    │  │  (Wiki / KB) │  │  │  (Doc Mgmt)         │ │
 │                    │  └──────────────┘  │  └─────────────────────┘ │
 ├────────────────────┴────────────────────┴───────────────────────────┤
 │   MONITORING                  │   DATA                              │
@@ -252,13 +248,13 @@ Zero cloud dependencies for core operations. SSO enforced across all services.
 ### 🎯 Year 1 Roadmap
 
 ```
-2026  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      Q1  ██████ CMMC RP Exam ✦ SC-300
-      Q2  ████████████ CCP Training (GI Bill) ✦ CISA prep begins
+2026  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      Q1  ██████ CMMC RP Exam  |  SC-300
+      Q2  ████████████ CCP Training (GI Bill)  |  CISA prep begins
       Q3  ████████████████████ CISA Exam
       Q4  ██████████████████████████████ CISM prep
-2027  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      Q1  CISM Exam ✦ CRISC prep begins
+2027  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      Q1  CISM Exam  |  CRISC prep begins
       Q2  ISO 27001 Lead Implementer (if client-triggered)
 ```
 
@@ -313,8 +309,6 @@ Zero cloud dependencies for core operations. SSO enforced across all services.
 | Service | Detail |
 |:---|:---|
 | **Branch** | United States Navy — Active Duty |
-| **Rate / Designator** | Logistics Specialist First Class (LS1) |
-| **Warfare** | Expeditionary Warfare (EXW) / Surface Warfare (SW) |
 | **Service Length** | 20+ Years |
 | **Clearance** | Top Secret |
 | **Deployments** | Multiple combat and expeditionary deployments — CTG 56.5, MAREXSECRON 3, VR-59 |
@@ -348,16 +342,6 @@ Zero cloud dependencies for core operations. SSO enforced across all services.
 
 ---
 
-## 📈 GitHub Activity
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=RobertMyersCloud&theme=darkhub&no-frame=true&no-bg=true&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## 📬 Contact & Connect
 
 <div align="center">
@@ -372,13 +356,11 @@ Zero cloud dependencies for core operations. SSO enforced across all services.
 
 <div align="center">
 
-<!-- VISITOR COUNTER -->
 ![Profile Views](https://komarev.com/ghpvc/?username=RobertMyersCloud&color=C9A84C&style=flat-square&label=Profile+Views)
 ![GitHub followers](https://img.shields.io/github/followers/RobertMyersCloud?label=Followers&style=flat-square&color=0A1628&labelColor=C9A84C)
 
 <br/>
 
-<!-- FOOTER WAVE -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A84C,50:1B3A5C,100:0A1628&height=100&section=footer" width="100%"/>
 
 *U.S. Navy Veteran · SDVOSB · Governance, compliance, and operational discipline for high-trust environments.*
