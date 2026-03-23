@@ -221,7 +221,7 @@ Service-Disabled Veteran-Owned Small Business providing assessment-focused compl
 
 *Available for IAM/IGA contract roles, W2 positions, and defense compliance engagements.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:robert@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](www.linkedin.com/in/robertjmyers5)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:robert.j.myers5@gmail.com)
 
 </div>
