@@ -1,124 +1,66 @@
-<div align="center">
+## Robert J. Myers — IAM Architect
 
-# Robert J. Myers
+**20 years federal identity governance (U.S. Navy 2001-2021) → civilian IAM implementation → CMMC consulting.**
 
-**Identity Governance Engineer · Entra ID · Privileged Access · Zero Trust · CMMC-Aligned Controls**
+Building at the intersection of identity governance, Zero Trust, and compliance for regulated environments. Currently operating as founder of [Stella Maris Governance LLC](https://stellamarisgovernance.com) (SDVOSB · CAGE 1AGQ9).
 
-[![SC-300](https://img.shields.io/badge/SC--300-In_Study-0078D4?style=flat-square&logo=microsoft)](https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/)
-[![AZ-104](https://img.shields.io/badge/AZ--104-In_Study-0078D4?style=flat-square&logo=microsoft)](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/)
-[![CMMC RP](https://img.shields.io/badge/CMMC-Registered_Practitioner_%E2%9C%93-1F3864?style=flat-square)](https://cyberab.org)
-[![FinOps CP](https://img.shields.io/badge/FinOps-Certified_Practitioner_%E2%9C%93-FF6B35?style=flat-square)](https://www.finops.org)
-[![CCZT](https://img.shields.io/badge/CCZT_%E2%9C%93-Zero_Trust-2E86AB?style=flat-square)](https://cloudsecurityalliance.org)
-[![Navy](https://img.shields.io/badge/U.S._Navy-20_Years_Active-003087?style=flat-square)](https://www.navy.mil)
+---
 
-**Fort Worth, TX**
+### 🎯 Featured Work
 
-</div>
+**[IAM Proof Portfolio →](https://github.com/RobertMyersCloud/iam-proof-portfolio)**
+Six production-grade identity governance packs for Microsoft Entra ID. JML · Access Reviews · PIM · Conditional Access · SoD · PowerShell automation. NIST 800-53 + CMMC Level 2 aligned. Policy + evidence + control mappings + interview prep.
 
-<br>
+---
 
-## What I Do
+### 🛠️ Stack
 
-I build **audit-ready identity governance systems** focused on:
+**Identity & Access:** Microsoft Entra ID · Microsoft Entra ID Governance · Microsoft Entra PIM · Conditional Access · Okta · SailPoint IdentityIQ · Active Directory · LDAP · SAML · OAuth · OIDC · SCIM · CAC/PKI
 
-- Joiner / Mover / Leaver (JML) lifecycle control
-- Role-based access control (RBAC) using group-based assignments
-- Conditional Access and MFA enforcement (Zero Trust)
-- Privileged access governance and session control
-- Identity control mapping aligned to NIST 800-53 / CMMC Level 2
+**Compliance:** NIST 800-53 Rev 5 · NIST 800-171 · CMMC 2.0 · SOC 2 Type II · Zero Trust (CISA ZTMM) · DFARS
 
-<br>
+**Engineering:** PowerShell · Microsoft Graph · Azure · Terraform · Python · Bash · SQL
 
-## Flagship Proof — Identity Lifecycle (JML)
+---
 
-**Scenario:** Simulated enterprise identity lifecycle using Microsoft Entra ID within a business-aligned tenant.
+### 📜 Certifications
 
-**What was built:**
+**IAM:** SailPoint Identity Security Leader · Okta Identity Foundations · (in progress: SC-300, Okta Certified Professional, Okta Certified Administrator)
 
-- Joiner workflow: user provisioning and identity creation
-- Access assignment via role-based security groups (RBAC)
-- Conditional Access policy enforcing MFA
-- Mover workflow: access updated based on role change
-- Leaver workflow: account disabled immediately
-- Session revocation to eliminate residual access
+**Cloud Security:** CCSK v5 · AZ-900 · SC-900 · FinOps Certified Practitioner · (in progress: AZ-500)
 
-**Controls enforced:** `AC-2` `AC-2(1)` `AC-3` `AC-6` `IA-2` `AU-2`
+**Compliance:** CMMC RP (CyberAB) · CCZT (Zero Trust) · ITIL 4
 
-**Outcome:**
-- Prevented orphaned accounts post-termination
-- Eliminated privilege accumulation across role changes
-- Enforced least privilege access model throughout lifecycle
-- Established audit-ready identity lifecycle evidence aligned to CMMC Level 2
+**Foundational:** Security+ · Network+ · ISC2 CC · AWS CCP · Fortinet Associate · Fortinet Fundamentals · Scrum Master · Lean Six Sigma Green Belt
 
-**→ [View JML Lifecycle Pack](https://github.com/RobertMyersCloud/iam-proof-portfolio/tree/main/01-jml-lifecycle)**
+---
 
-<br>
+### 🎯 Open To
 
-## Featured Repositories
+- **IAM / IGA Architect roles** — $130K-170K target
+- **CMMC Level 2 readiness consulting** — via Stella Maris Governance
+- **SDVOSB defense identity governance contracts** — CAGE 1AGQ9 active
 
-| Repository | What It Demonstrates |
-|---|---|
-| [**iam-proof-portfolio**](https://github.com/RobertMyersCloud/iam-proof-portfolio) | Identity governance proof packs — JML, Access Reviews, PIM, Conditional Access, SoD, Automation |
+---
 
-<br>
+### 🎖️ Background
 
-## Selected Implementations
+**U.S. Navy** (2001-2021) — LS1/NC1, E-6. Four roles across 20 years including IT Operations & Access Governance Lead (3,500+ identities, 2,200+ CAC/PKI, zero security incidents across four years). Deployments: OIF, OND, OEF.
 
-- Designed and executed a full JML identity lifecycle in Microsoft Entra ID with provisioning, RBAC access assignment, MFA enforcement, and deprovisioning aligned to NIST AC-2.
-- Implemented Conditional Access policies requiring MFA for user authentication, enforcing Zero Trust principles across identity access.
-- Built role-based access model using security groups to prevent direct permission assignment and reduce privilege sprawl.
-- Simulated role transitions (Mover events) by removing outdated access and assigning new entitlements aligned to job function.
-- Enforced immediate access termination through account disablement and session revocation, eliminating residual access risk.
-- Developed PowerShell automation suite using Microsoft Graph for group membership reporting, stale account detection, PIM analysis, Conditional Access evaluation, and leaver workflow execution.
+**Post-Navy civilian:** Senior Production Buyer at Mammoth Freighters (aerospace/defense-adjacent). Supply Chain Manager at Aero Components LLC (DFARS/ITAR, $10M spend). Warehouse Foreman at Federal Bureau of Prisons (DOJ High-Risk Public Trust).
 
-<br>
+**Education:** MBA — University of the Incarnate Word (GPA 3.85, High Distinction) · BS Accounting — Colorado Technical University (Summa Cum Laude)
 
-## Core Stack
+**Clearance:** Active U.S. Government Secret · DOJ High-Risk Public Trust
 
-**Identity:** Microsoft Entra ID · PIM · Conditional Access · Access Reviews · RBAC
+---
 
-**Automation:** PowerShell · Microsoft Graph
+### 📬 Contact
 
-**Compliance:** NIST 800-53 · NIST 800-171 · CMMC Level 2 · DFARS
+- 📧 robert@stellamarisgovernance.com
+- 🌐 [stellamarisgovernance.com](https://stellamarisgovernance.com)
+- 💼 [LinkedIn](https://linkedin.com/in/robertmyers)
 
-<br>
+---
 
-## Credentials
-
-**Active:** CMMC RP · FinOps CP · CCZT · Security+ · CySA+ · PenTest+ · Cloud+ · Linux+ · Network+ · A+ · ISC2 CC · AZ-900 · SC-900 · AWS CCP · ITIL 4 · LSS Green Belt
-
-**In Progress:** SC-300 · AZ-104 · AZ-500
-
-<br>
-
-## Military Service
-
-| | |
-|---|---|
-| **Branch** | United States Navy — Active Duty |
-| **Service** | 20+ Years |
-| **Clearance** | Secret (Prior) · LEO Public Trust |
-| **Audit Record** | Zero findings — all command inspections |
-| **Budget Authority** | $2.4M command budget · $750K+ mission-critical procurement |
-| **Awards** | Navy & Marine Corps Achievement Medal ×8 · Navy & Marine Corps Commendation Medal · Good Conduct Medal ×4 · Sea Service Ribbon ×4 · National Defense Service Medal · Global War on Terrorism Expeditionary |
-
-<br>
-
-## Hiring Focus
-
-IAM Engineer · Identity Governance · Cloud Security
-
-**Focus areas:** Entra ID · Lifecycle Governance · Privileged Access · Zero Trust · Regulated / Defense environments
-
-<br>
-
-<div align="center">
-
-Actively building a GitHub-based IAM proof portfolio with audit-ready evidence.
-
-*Available for IAM Engineer, Identity Governance, and Cloud Security roles — W2 or contract.*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/robertjmyers5)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:robert.j.myers5@gmail.com)
-
-</div>
+*Fort Worth, TX · Last updated April 2026*
