@@ -59,7 +59,7 @@ Six production-grade identity governance packs for Microsoft Entra ID. JML · Ac
 
 - 📧 robert@stellamarisgovernance.com
 - 🌐 [stellamarisgovernance.com](https://stellamarisgovernance.com)
-- 💼 [LinkedIn](https://linkedin.com/in/robertmyers)
+- 💼 [LinkedIn](https://linkedin.com/in/robertjmyers5)
 
 ---
 
