@@ -37,9 +37,9 @@ Six production-grade identity governance packs for Microsoft Entra ID. JML · Ac
 
 ### 🎯 Open To
 
-- **IAM / IGA Architect roles** — $130K-170K target
+- **IAM / IGA Architect roles** 
 - **CMMC Level 2 readiness consulting** — via Stella Maris Governance
-- **SDVOSB defense identity governance contracts** — CAGE 1AGQ9 active
+- **Defense identity governance contracts** — CAGE 1AGQ9 active
 
 ---
 
@@ -51,7 +51,7 @@ Six production-grade identity governance packs for Microsoft Entra ID. JML · Ac
 
 **Education:** MBA — University of the Incarnate Word (GPA 3.85, High Distinction) · BS Accounting — Colorado Technical University (Summa Cum Laude)
 
-**Clearance:** Active U.S. Government Secret · DOJ High-Risk Public Trust
+**Clearance:** Prior U.S. Government Secret · DOJ High-Risk Public Trust
 
 ---
 
