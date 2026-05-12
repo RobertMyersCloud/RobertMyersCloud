@@ -13,14 +13,14 @@ Currently building practical IAM governance labs, RBAC models, access review wor
 
 Hands-on identity governance portfolio demonstrating practical IAM and IGA workflows including:
 
-Joiner-Mover-Leaver (JML) lifecycle management
-Access Reviews & Certification Campaigns
-RBAC & Least Privilege Enforcement
-Privileged Identity Management (PIM)
-Conditional Access Governance
-Segregation of Duties (SoD)
-PowerShell & Microsoft Graph automation
-Audit-ready governance evidence aligned to NIST & CMMC
+* Joiner-Mover-Leaver (JML) lifecycle management
+* Access Reviews & Certification Campaigns
+* RBAC & Least Privilege Enforcement
+* Privileged Identity Management (PIM)
+* Conditional Access Governance
+* Segregation of Duties (SoD)
+* PowerShell & Microsoft Graph automation
+* Audit-ready governance evidence aligned to NIST & CMMC
 
 ---
 
@@ -38,7 +38,7 @@ Audit-ready governance evidence aligned to NIST & CMMC
 
 **Identity, Governance & Security:** SailPoint Identity Security Leader · Okta Identity Foundations · SC-900 — Security, Compliance & Identity Fundamentals · Security+ · CMMC RP (CyberAB) · CCZT (Zero Trust)  (in progress: SC-300, Okta Certified Professional, Okta Certified Administrator)
 
-**Cloud & Infrastructure:** ITIL 4 · AZ-900 · AWS Certified Cloud Practitioner · Network+ · FinOps Certified Practitioner · ISC2 CC · Fortinet Associate · Fortinet Fundamentals · Scrum Master · Lean Six Sigma Green Belt (in progress: AZ-500) 
+**Cloud & Infrastructure:** ITIL 4 · AZ-900 · AWS Certified Cloud Practitioner · Network+ · FinOps Certified Practitioner · ISC2 CC 
 
 ---
 
@@ -61,4 +61,4 @@ Audit-ready governance evidence aligned to NIST & CMMC
 
 ---
 
-*Weatherford, TX · Last updated May 2026*
+*Dallas-Fort Worth Metroplex, TX · Last updated May 2026*
