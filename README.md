@@ -1,6 +1,6 @@
 # Robert J. Myers - Network & Systems Infrastructure
 
-20-year U.S. Navy veteran building deep hands-on capability in **network and systems infrastructure**, with security integrated into how I design, troubleshoot, segment, monitor, and recover technical environments.
+20-year U.S. Navy veteran working in **network and systems infrastructure**. I build, break, and fix things in my own lab, and I treat security as part of how a network is designed and run, not a separate job.
 
 My current work centers on routing, switching, TCP/IP, VLANs, core network services, Linux and Windows systems, virtualization, packet analysis, firewalls, and structured troubleshooting.
 
@@ -14,9 +14,7 @@ I am currently pursuing a Bachelor's in Applied Cybersecurity at SANS Technology
 
 **[View the Prove-It Repository](https://github.com/RobertMyersCloud/prove-it)**
 
-This is my hands-on body of proof.
-
-Current published networking work includes:
+Hands-on labs with the evidence to back them up. Published so far:
 
 - Ethernet, ARP, MAC learning, and physical switch port mirroring
 - TCP and UDP traffic analysis
@@ -27,11 +25,11 @@ Current published networking work includes:
 - VLAN segmentation, inter-VLAN routing, and ACL enforcement
 - A protected systems enclave with layered router and host firewall controls, re-tested and fixed after I found five gaps in my own design
 
-The operating method is:
+How I work each project:
 
-**Learn -> Build -> Break -> Diagnose -> Fix -> Prove -> Explain**
+**Learn -> Build -> Break when useful -> Diagnose -> Fix -> Prove -> Explain**
 
-Every published artifact is based on work I performed, machine-generated evidence I collected, conclusions I can defend, and validation that supports the result.
+Everything in it is work I did myself, backed by command output, captures, and screenshots from my lab. When I find a problem later, I fix it and document the retest in the same project.
 
 ### Packet Analysis Lab
 
@@ -108,7 +106,7 @@ Microsoft Sentinel Ninja Training is completed technical training and is not rep
 
 ### U.S. Navy | 2001-2021
 
-20 years of mission-critical operational leadership across logistics, IT operations, access administration, personnel security, technical coordination, and large-scale accountability.
+Twenty years across logistics, IT operations, access administration, personnel security, and accountability for large inventories.
 
 Selected experience includes:
 
@@ -121,13 +119,13 @@ Selected experience includes:
 
 ### Federal Service
 
-Served with the Federal Bureau of Prisons in a controlled federal operational environment requiring documented processes, accountability, investigation, and reliable execution.
+Worked for the Federal Bureau of Prisons, where everything ran on documented procedures and accountability.
 
 ### Defense Aerospace
 
 Led supply-chain and operational recovery work supporting aircraft production, shortage reduction, asset control, root-cause analysis, and cross-functional problem solving.
 
-The common thread across these environments is disciplined operations under consequence: understand the system, identify the failure, correct it, validate the result, and document what happened.
+In every one of these jobs the work was the same: figure out how the system works, find what's broken, fix it, prove the fix, and write down what happened.
 
 ---
 
@@ -146,13 +144,9 @@ Bachelor of Science - Accounting, Summa Cum Laude
 
 ## Technical Direction
 
-My immediate professional discipline is:
+Right now I'm focused on **network and systems infrastructure**: strong fundamentals first, then production experience, with security built on top.
 
-**Network & Systems Infrastructure**
-
-The objective is depth before breadth: build strong networking and systems fundamentals, earn production infrastructure experience, and continue layering security capabilities onto that foundation.
-
-Longer-term security specialization may include network forensics, DFIR, threat hunting, or offensive security, but those are future progression paths rather than competing current career identities.
+Later I may specialize in network forensics, DFIR, threat hunting, or offensive security. That comes after the foundation, not instead of it.
 
 ---
 
