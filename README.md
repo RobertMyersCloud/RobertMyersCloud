@@ -1,4 +1,4 @@
-﻿# Robert J. Myers - Network & Systems Infrastructure
+# Robert J. Myers - Network & Systems Infrastructure
 
 20-year U.S. Navy veteran building deep hands-on capability in **network and systems infrastructure**, with security integrated into how I design, troubleshoot, segment, monitor, and recover technical environments.
 
@@ -25,12 +25,19 @@ Current published networking work includes:
 - Routing and path selection
 - NAT and carrier-grade NAT analysis
 - VLAN segmentation, inter-VLAN routing, and ACL enforcement
+- A protected systems enclave with layered router and host firewall controls, re-tested and fixed after I found five gaps in my own design
 
 The operating method is:
 
 **Learn -> Build -> Break -> Diagnose -> Fix -> Prove -> Explain**
 
 Every published artifact is based on work I performed, machine-generated evidence I collected, conclusions I can defend, and validation that supports the result.
+
+### Packet Analysis Lab
+
+**[View the Packet Analysis Lab](https://github.com/RobertMyersCloud/packet-analysis-lab)**
+
+tcpdump and Wireshark analysis of normal traffic, failed connections, and controlled suspicious patterns like port enumeration and periodic beaconing. The focus is on what the packets actually prove and what they don't.
 
 ---
 
@@ -149,19 +156,12 @@ Longer-term security specialization may include network forensics, DFIR, threat 
 
 ---
 
-## Other Repositories
-
-Older IAM, identity, cloud, business-analysis, and security repositories remain public as part of my broader technical history.
-
-My current development and proof-of-work efforts are centered on **Network & Systems Infrastructure**.
-
----
-
 ## Contact
 
 - [LinkedIn](https://linkedin.com/in/robertjmyers5)
 - [Prove-It Portfolio](https://github.com/RobertMyersCloud/prove-it)
+- [Packet Analysis Lab](https://github.com/RobertMyersCloud/packet-analysis-lab)
 
 ---
 
-*Fort Worth / Weatherford, Texas area - Updated September 2026*
+*Fort Worth / Weatherford, Texas area - Updated October 2026*
