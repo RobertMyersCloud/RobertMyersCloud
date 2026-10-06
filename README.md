@@ -16,11 +16,13 @@ I am currently pursuing a Bachelor's in Applied Cybersecurity at SANS Technology
 
 Hands-on labs with the evidence to back them up. Published so far:
 
+- An isolated lab range behind a router trust boundary, with the egress policy tested
+- Linux VM build and SSH administration
 - Ethernet, ARP, MAC learning, and physical switch port mirroring
 - TCP and UDP traffic analysis
 - DNS resolution and failure troubleshooting
 - HTTP/TLS packet analysis
-- Routing and path selection
+- Routing and path selection, including a fault-isolation test that found my hypervisor was forwarding traffic it shouldn't, traced the cause to its network tooling, and fixed it
 - NAT and carrier-grade NAT analysis
 - VLAN segmentation, inter-VLAN routing, and ACL enforcement
 - A protected systems enclave with layered router and host firewall controls, re-tested and fixed after I found five gaps in my own design
