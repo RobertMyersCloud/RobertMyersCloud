@@ -41,45 +41,9 @@ tcpdump and Wireshark analysis of normal traffic, failed connections, and contro
 
 ---
 
-## Current Technical Focus
+## What I'm Building Next
 
-### Networking
-
-- Ethernet and ARP
-- TCP/IP
-- IPv4 subnetting
-- Routing and route selection
-- VLANs and 802.1Q
-- Inter-VLAN routing
-- DNS and DHCP
-- NAT / CGNAT
-- ACLs and firewall policy
-- Wireshark, TShark, and tcpdump
-- Network troubleshooting
-- Cisco networking / CCNA lab development
-
-### Systems & Infrastructure
-
-- Linux
-- Windows
-- Proxmox VE
-- Hyper-V
-- SSH and remote administration
-- Virtual networking
-- Backup and recovery
-- Monitoring and logging
-- PowerShell and Bash
-
-### Security-Focused Infrastructure
-
-- Network segmentation
-- Trust boundaries
-- Least privilege
-- Firewall enforcement
-- Packet analysis
-- Secure administrative access
-- Logging and telemetry
-- Infrastructure recovery and validation
+The proof above covers networking fundamentals through segmentation. Next in the lab: Layer-2 fault injection and recovery, centralized logging, secure remote management under CGNAT, and backup and restore with validation. Cisco IOS work for the CCNA is documented separately from the TP-Link lab, so each claim matches the hardware it ran on.
 
 ---
 
@@ -98,9 +62,7 @@ tcpdump and Wireshark analysis of normal traffic, failed connections, and contro
 - **Cisco CCNA** - planned November 2026
 - **GIAC Security Essentials (GSEC)** - planned November 2026
 
-Additional credentials include CCSK v5, CCZT, ISC2 CC, AZ-900, SC-900, Fortinet cybersecurity fundamentals, FinOps Certified Practitioner, Microsoft identity coursework, Lean Six Sigma Green Belt, and Scrum Master.
-
-Microsoft Sentinel Ninja Training is completed technical training and is not represented here as a professional certification.
+Additional credentials include CCSK v5, CCZT, ISC2 CC, AZ-900, SC-900, and Fortinet cybersecurity fundamentals.
 
 ---
 
