@@ -8,7 +8,7 @@ I spent 20 years in the Navy, most of it in supply, finance, and logistics, incl
 
 ## Selected Work
 
-### [PCAP Pattern Detector](https://github.com/RobertMyersCloud/pcap-pattern-detector): scan and beacon detection in Python
+### [PCAP Pattern Detector](https://github.com/RobertMyersCloud/pcap-pattern-detector) — scan and beacon detection in Python
 
 Two detectors that read a packet capture and flag port scanning and beacon-like traffic. I tested them on new traffic from my lab, including traffic built to get past them. That testing found two bugs: a fast scan hidden by one later connection, and retried SYNs counted as new connections. I fixed both, set the beacon threshold from measurements, and listed the limits that remain.
 
