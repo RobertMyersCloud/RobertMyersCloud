@@ -2,7 +2,7 @@
 
 Navy veteran moving into **security operations and incident response**, with digital forensics as the long-term direction.
 
-I spent 20 years in the Navy, most of it in supply, finance, and logistics, including about three years running a command IT department and five years as Command Security Manager. A lot of that work was investigative: tracing transactions through supply-system records to find money that had gone missing, working fraud, waste, and abuse cases, and handling security investigations and insider-threat reporting. I'm now building the technical side of that work in my own lab, and every project here is backed by evidence I collected myself.
+I spent 20 years in the Navy, most of it in supply, finance, and logistics, including about four years (2012–2016) running a command IT department and five years as Command Security Manager. A lot of that work was investigative: tracing transactions through supply-system records to find money that had gone missing, working fraud, waste, and abuse cases, and handling security investigations and insider-threat reporting. I'm now building the technical side of that work in my own lab, and every project here is backed by evidence I collected myself.
 
 ---
 
@@ -40,15 +40,12 @@ Claims are limited to what the evidence shows. Raw captures and anything identif
 
 ## Certifications
 
+- GIAC Security Essentials (GSEC), GIAC Advisory Board
 - GIAC Foundational Cybersecurity Technologies (GFACT)
-- CompTIA Security+
-- CompTIA Network+
-- ISC2 Certified in Cybersecurity (CC)
+- CompTIA Security+, CompTIA Network+
 - Fortinet FortiGate 7.6 Operator, Fortinet Certified Associate Cybersecurity
-- AWS Certified Cloud Practitioner, Microsoft AZ-900, Microsoft SC-900
-- CSA CCSK v5, CSA CCZT
 
-**In progress:** GIAC Security Essentials (GSEC) through SANS SEC401
+**Next:** GIAC Certified Incident Handler (GCIH) through SANS SEC504
 
 ---
 
